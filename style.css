@@ -1,0 +1,69 @@
+/* @import url('https://fonts.googleapis.com/css?family=Space+Mono'); */
+
+/* quick reset so all our padding is the right size */
+* {
+  box-sizing: border-box;
+}
+
+.calculator{
+    max-width:320px;
+    background: #080536;
+}
+.calculator-buttons{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 2px solid black;
+}
+.calc-numbers{
+    font-family: 'Space Mono', serif;
+    background: #fff;
+    color: rgb(10, 1, 1);
+    font-size: 2em;
+    border: 2px solid black;
+    padding: 0.3em;
+    text-align: left;
+    width: 100%;
+    height: 100px;
+}
+/* .span-2{
+    grid-row: span 2;
+}
+.span-3{
+    grid-column: span 2;
+} */
+.btn{
+    font-size:1em;
+    height: 75px;
+    border:1px solid black;
+}
+
+.orange{
+    background-color:orange;
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    align-items:
+
+}
+.red{
+    background-color: red;
+    grid-column: span 2;
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    align-items:
+
+  
+}
+.btn{
+    background-color: #080536;
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    align-items: center;
+    padding: 0.3em;
+}
+span{
+    color: yellow;
+}
+
